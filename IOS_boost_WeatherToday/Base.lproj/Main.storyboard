@@ -76,7 +76,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1076" y="133.5832083958021"/>
+            <point key="canvasLocation" x="1308" y="134"/>
         </scene>
         <!--Country View Controller-->
         <scene sceneID="IGu-vD-fUU">
@@ -139,12 +139,13 @@
                                             <outlet property="imgView" destination="3dM-Z0-bdm" id="jYx-V3-86K"/>
                                             <outlet property="rainLabel" destination="m6Q-Tw-0Kz" id="A86-dH-7pX"/>
                                             <outlet property="temperature" destination="Y8C-aG-kaS" id="Rj3-FG-ZSX"/>
-                                            <segue destination="DIy-L9-mLh" kind="show" id="7P4-Q2-N5z"/>
+                                            <segue destination="DIy-L9-mLh" kind="show" identifier="Town" id="7P4-Q2-N5z"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="LfN-tZ-50r" id="l84-eK-0CE"/>
+                                    <outlet property="delegate" destination="LfN-tZ-50r" id="NQU-F3-Kje"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -162,10 +163,10 @@
             </objects>
             <point key="canvasLocation" x="1989.5999999999999" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--Town View Controller-->
         <scene sceneID="ogK-qg-Sw7">
             <objects>
-                <viewController id="DIy-L9-mLh" sceneMemberID="viewController">
+                <viewController id="DIy-L9-mLh" customClass="TownViewController" customModule="IOS_boost_WeatherToday" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="I8f-qq-fRB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -209,6 +210,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="RXf-Ls-e2L"/>
                     </view>
+                    <connections>
+                        <outlet property="img" destination="gm3-UE-lDG" id="Qy3-Af-fdM"/>
+                        <outlet property="rainLabel" destination="ONe-Au-ba1" id="s1M-mZ-qva"/>
+                        <outlet property="temperatureLabel" destination="RuS-aW-r8j" id="TUz-9P-gpo"/>
+                        <outlet property="weatherLabel" destination="q9f-wj-aXH" id="urn-bc-sju"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bja-rb-bxW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -234,7 +241,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZEd-9c-tQI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="162" y="134"/>
+            <point key="canvasLocation" x="646" y="134"/>
         </scene>
     </scenes>
 </document>

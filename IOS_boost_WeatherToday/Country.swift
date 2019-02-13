@@ -21,6 +21,8 @@ import Foundation
  
  */
 
+
+//나라별정보
 class Country: Codable {
     let koreanName: String
     let assetName: String

@@ -12,7 +12,7 @@ class ViewController: UIViewController, UITableViewDataSource {
 
     var country: [Country] = []
     
-    //
+    //나라별 이미지를 가져오기위한 한영 변환함수
     func change(s: String) -> String {
         var changeString: String = ""
         switch s {

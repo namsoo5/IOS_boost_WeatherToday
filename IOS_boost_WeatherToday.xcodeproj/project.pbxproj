@@ -18,6 +18,7 @@
 		1BE31A55221405B3006E7528 /* Town.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE31A54221405B3006E7528 /* Town.swift */; };
 		1BE31A572214097F006E7528 /* TownTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE31A562214097F006E7528 /* TownTableViewCell.swift */; };
 		1BE31A5922141381006E7528 /* TownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE31A5822141380006E7528 /* TownViewController.swift */; };
+		1BE31A5B22142342006E7528 /* DetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE31A5A22142342006E7528 /* DetailData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		1BE31A54221405B3006E7528 /* Town.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
 		1BE31A562214097F006E7528 /* TownTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownTableViewCell.swift; sourceTree = "<group>"; };
 		1BE31A5822141380006E7528 /* TownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownViewController.swift; sourceTree = "<group>"; };
+		1BE31A5A22142342006E7528 /* DetailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				1BE31A3C2213D7A9006E7528 /* AppDelegate.swift */,
 				1BE31A3E2213D7A9006E7528 /* ViewController.swift */,
 				1BE31A522213EA8B006E7528 /* CountryViewController.swift */,
+				1BE31A5A22142342006E7528 /* DetailData.swift */,
 				1BE31A5822141380006E7528 /* TownViewController.swift */,
 				1BE31A402213D7A9006E7528 /* Main.storyboard */,
 				1BE31A562214097F006E7528 /* TownTableViewCell.swift */,
@@ -158,6 +161,7 @@
 				1BE31A5922141381006E7528 /* TownViewController.swift in Sources */,
 				1BE31A4F2213E0CA006E7528 /* Country.swift in Sources */,
 				1BE31A55221405B3006E7528 /* Town.swift in Sources */,
+				1BE31A5B22142342006E7528 /* DetailData.swift in Sources */,
 				1BE31A532213EA8B006E7528 /* CountryViewController.swift in Sources */,
 				1BE31A3D2213D7A9006E7528 /* AppDelegate.swift in Sources */,
 				1BE31A572214097F006E7528 /* TownTableViewCell.swift in Sources */,

@@ -17,6 +17,7 @@ import Foundation
  }
  */
 
+//도시별 정보
 class Town:Codable {
     let cityName:String
     let state:Int
